@@ -39,6 +39,7 @@ export const createConversation = mutation({
         const conversationId = await ctx.db.insert("conversations", {
             participants: args.participants,
             isGroup: args.isGroup,
+            groupName: args.groupName,
             groupImage,
             admin: args.admin
         })

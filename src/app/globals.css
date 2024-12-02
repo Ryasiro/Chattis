@@ -4,7 +4,7 @@
 
 @layer base {
 	:root {
-		--background: 48, 8%, 88%; /* CHANGED */
+		--background: 182, 100%, 95%; /* CHANGED */
 		--foreground: 222.2 84% 4.9%;
 
 		/* CLASSES ADDED BY US */
@@ -17,7 +17,7 @@
 		--left-panel: 100, 100%, 100%;
 		--chat-hover: 180, 5%, 96%;
 
-		--green-primary: 191, 100%, 33%;
+		--green-primary: 205, 100%, 33%;
 		--green-chat: 111, 91%, 91%;
 		/* CLASSES ADDED BY US */
 

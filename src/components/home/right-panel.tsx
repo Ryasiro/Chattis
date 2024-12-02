@@ -7,8 +7,10 @@ import ChatPlaceHolder from "@/components/home/chat-placeholder";
 import GroupMembersDialog from "./group-members-dialog";
 import { useConversationStore } from "@/store/chat-store";
 
+
 const RightPanel = () => {
 	const {selectedConversation,setSelectedConversation} = useConversationStore();
+
 	if (!selectedConversation) return <ChatPlaceHolder />;
 
 	const conversationName = selectedConversation.groupName || selectedConversation.name;
