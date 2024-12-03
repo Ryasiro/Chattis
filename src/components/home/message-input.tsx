@@ -75,7 +75,7 @@ const MessageInput = () => {
 							size={"sm"}
 							className='bg-transparent text-foreground hover:bg-transparent'
 						>
-							<Mic />
+							<Send />
 						</Button>
 					)}
 				</div>
